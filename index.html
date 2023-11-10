@@ -3,40 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Johannesburg</h1>
-        <p>
-          Thursday 13:13, partly cloudy
-          <br />
-          Humidity: 60%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>⛅ 15°C</div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Johannesburg</h1>
+          <p>
+            Thursday 13:13, partly cloudy
+            <br />
+            Humidity: 60%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>⛅ 15°C</div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/lungi-kaptein" target="_blank"
-        >Lungi Kaptein</a
-      >
-      is
-      <a href="https://github.com/lungi-kaptein/weather" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://deft-swan-7dce6f.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/lungi-kaptein" target="_blank"
+          >Lungi Kaptein</a
+        >
+        is
+        <a href="https://github.com/lungi-kaptein/weather" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://deft-swan-7dce6f.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
