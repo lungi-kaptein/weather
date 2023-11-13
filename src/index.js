@@ -9,9 +9,8 @@ function updateWeather(response) {
 
 function searchCity(city) {
   let apiKey = "6abedda1ad6224fbft004155f03odf27";
-  let apiUrl =
-    " https://api.shecodes.io/weather/v1/current?query=${city}&key=6abedda1ad6224fbft004155f03odf27&units=metric ";
-  axious.get(apiUrl).then(updateWeather);
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=6abedda1ad6224fbft004155f03odf27&units=metric`;
+  axios.get(apiUrl).then(updateWeather);
 }
 
 function handleSearchSubmit(event) {
@@ -24,3 +23,5 @@ function handleSearchSubmit(event) {
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
+
+searchCity("Johannesburg");
