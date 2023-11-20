@@ -9,6 +9,12 @@
       href="https://fonts.googleapis.com/css2?family=Domine&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Weather App</title>
@@ -45,22 +51,7 @@
           </div>
         </div>
 
-        <div class="weather-forecast">
-          <div class="=row">
-            <div class="col-2">
-              <div class="weather-forecast-date">Sun</div>
-              <img
-                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png"
-                alt=""
-                width="36"
-              />
-              <div class="weather-forecast-temperatures">
-                <span class="weather-forecast-temperature-max">18</span>
-                <span class="weather-forecast-temperature-min">14</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="weather-forecast" id="forecast"></div>
       </main>
 
       <footer>

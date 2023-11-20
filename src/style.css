@@ -5,7 +5,7 @@ body {
 
 .weather-app {
   background: white;
-  max-width: 600px;
+  max-width: 700px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgb(65, 50, 100, 0.08);
   border-radius: 16px;
@@ -83,9 +83,16 @@ main {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  padding-top: 20px;
   text-align: center;
   color: #000;
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.weather-forecast-icon {
+  font-size: 24px;
 }
 
 .weather-forecast-date {
